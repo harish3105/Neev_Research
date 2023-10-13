@@ -1,0 +1,67 @@
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+  .head {
+    font-size: 28px;
+  }
+}
+.para {
+  width: 70%;
+  font-size: 24px;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  .background {
+    width: 100vw;
+  }
+  .scanner {
+    width: 80px;
+    height: 80px;
+  }
+  .para {
+    font-size: 20px;
+  }
+}
+.head {
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  width: 100vw;
+  background-color: #03fcb6;
+  color: white;
+}
+.button {
+  margin: 10px 0px 10px 0px;
+  border: solid 2px white;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+}
+.scanner {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.navbar {
+  width: 100%;
+}
+.failure-image {
+  width: 100px;
+  height: 100px;
+}
